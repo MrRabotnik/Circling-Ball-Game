@@ -1,4 +1,27 @@
 .container{
     height: 100%;
-    background-color: rgb(97, 216, 97);
+    background-color: rgb(136, 196, 136);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    background-color: rgb(235, 234, 234);
+    width: 45vw;
+    height: 45vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: outset 5px black;
+}
+
+.centeredCircle{
+    width: 28vw;
+    height: 28vw;
+    border-radius: 50%;
+    background-color: rgb(136, 196, 136);
+    border: inset 5px black;
 }

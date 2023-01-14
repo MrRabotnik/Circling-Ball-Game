@@ -1,11 +1,16 @@
 import "./app.css"
 
+import Ball from "./Components/Ball/Ball.jsx"
+
 function App() {
     return (
         <div className="container">
-            <div>
-                
-            </div>
+            <main>
+                <Ball></Ball>
+                <div className="centeredCircle">
+
+                </div>
+            </main>
         </div>
     );
 }
